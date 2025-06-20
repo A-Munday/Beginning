@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A simple webpage to document my learning journey"/>
+    <title>My Learning Journey - Part 2</title>
+</head>
+
+<body>
+    <h1>My Learning Journey - Part 2: Published <date>20/06/2025</date></h1>
+        <p>Welcome to the second part of my study record, which concludes the learning (for now!) on <abbr title="HyperText Markup Language"><b>HTML</b></abbr>.</p>
+        <figure>
+            <img src="20250619_113726.jpg" alt="a sunny view from a window" width="400" height="350">
+            <figcaption>A beautiful day to learn</figcaption>
+        </figure>
+    
+    <nav>
+        <ul>
+            <li> <a href="#studied">Learnings to date</a></li>
+            <li> <a href="#next">Next steps</a></li>
+            <li> <a href="#practice">Practice</a></li>
+        </ul>
+    </nav>
+
+    <section id="studied">
+        <h2>Learnings to date</h2>
+        <p>As described in <a href="https://a-munday.github.io/Beginning/Part1/index.html">Part 1</a>, I studied the fundamentals of <abbr title="HyperText Markup Language"><b>HTML</b></abbr> including;
+            <ul>
+                <li>Structure</li>
+                <li>Headings</li>
+                <li>Paragraphs</li>
+                <li>Lists</li>
+                <li>Embedding media</li>
+            </ul></p>
+        <p>The second stage of study focussed on;
+            <ul>
+                <li><abbr title="HyperText Markup Language"><b>HTML</b></abbr> semantics</li>
+                <li>Forms / Tables</li>
+                <li>Accessability</li> 
+            </ul>
+            I have sought to implement all those teachings within this webpage to help embed the knowledge gained, although clearly when it comes to <abbr title="HyperText Markup Language"><b>HTML</b></abbr> Semantics, many of the changes may not be noticable on the front end!
+        </p>
+        <p> <q cite="https://dev.to/jeremycmorgan/7-great-programming-quotes-o95">The only way to learn a new programming language is by writing programs in it." - <b>Dennis Ritchie</b></q></p>
+    </section>
+
+    <section id="next">
+        <h2>Next steps</h2>
+        <p>I continue to follow the 'full stack developer' course provided by freeCodeCamp. Whilst I have found this course fun and interactive, there is a growing part of me which is missing the excitement of actually programming something.</p>
+        <p>freeCodeCamp describred the learning order in the course like constructing a house, with <abbr title="HyperText Markup Language"><b>HTML</b></abbr> being the structure, <abbr title="Cascading Style Sheets"><b>CSS</b></abbr> being the decoration and <b>Java Script</b> (or another development system) being the interactivty (e.g. the power supply enabling you to turn lights on and off).</p>
+        <p>This order makes sense to me and I will continue to trust in the program, although I may go rogue outside the hours I've scheduled for structured learning and try to complete a few things in <b>Java Script</b>.</p>
+        <p>But the next step for me in relation to my core development through freeCodeCamp is <abbr title="Cascading Style Sheets"><b>CSS</b></abbr>!</p>
+    </section>
+
+    <section id="practice">
+        <h2>Practice</h2>
+        <p>As I have mentioned, I using these updates to practice my studies, in this case <abbr title="HyperText Markup Language"><b>HTML</b></abbr>, as much as possible.</p>
+        <p>Therefore, I have created a form template below. Obviously this is just a dummy record, so if anyone other than me ever reads this, do not attempt to complete (it will not go anywhere!).</p>
+        
+        <form>
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="A NAME" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+        </fieldset>
+            <br>
+        <fieldset>
+            <legend>Do you think this is a good way to practice?</legend>
+            <label for="yes-option" name="question">Yes:</label>
+            <label for="no-option">No:</label>
+            <br>
+            <input type="radio" id="yes-option" name="question" value="question">
+            <input type="radio" id="no-option" name="question" value="question">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>What is your favourite programming language?</legend>
+            <label for="python">Python</label>
+            <input type="checkbox" id="python" name="language" value="python">
+            <label for="javascript">Java Script</label>
+            <input type="checkbox" id="javascript" name="language" value="javascript">
+            <label for="java">Java</label>
+            <input type="checkbox" id="java" name="language" value="java">
+            <label for="csharp">C#</label>
+            <input type="checkbox" id="csharp" name="language" value="csharp">
+        </fieldset>
+        </form>
+            <p>Who is the best Teletubby?</p>
+            <select>
+                <option value="tinkywinky">Tinky Winky</option>
+                <option value="dipsy">Dipsy</option>
+                <option value="lalaa">Laa Laa</option>
+                <option value="po">Po</option>
+            </select>
+            <br>
+            <br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        
+        
+</body>
+</html>
